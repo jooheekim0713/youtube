@@ -34,7 +34,7 @@ function App({ youtube }) {
           <VideoList
             videos={videos}
             onVideoClick={selectVideo}
-            display={selectVideo ? 'list' : 'grid'}
+            display={selectedVideo ? 'list' : 'grid'}
           />
         </div>
       </section>

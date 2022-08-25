@@ -2,12 +2,12 @@
   padding: 10px;
 }
 
-.container .list {
-  width: 100%;
+.container.grid {
+  width: 50%;
 }
 
-.container .grid {
-  width: 50%;
+.container.list {
+  width: 100%;
 }
 
 .video {
